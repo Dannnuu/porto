@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="head-icon.png">
+    <title>Aqil - My Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section></section>
+<div class="layer" style="left: 0px">
+    <h2>
+       My
+        <br>
+        Portofolio 
+        <br>
+        As
+    </h2>
+    <h1>
+        FRONTEND
+        <br>
+        DEVELOPER
+    </h1>
+</div> 
+<section>
+  <div class="wrapper2">
+    <img src="profile-picture.jpeg" alt="Aqil" style="border-radius: 50%;" width="250" height="200">
+    <h2>Hello I'am Aqil</h2>
+  </div>
+</section>
+<section class="section2">
+      <h1>My Projects</h1>
+      <div class="wrapper">
+        <a class="card" href="#">
+          <img src="project1.jpg" alt="">
+          <p>Project 1</p>
+        </a>
+        <a class="card" href="#">
+          <img src="project2.jpg" alt="">
+          <p>Project 2</p>
+        </a>
+        <a class="card" href="#">
+          <img src="project3.jpg" alt="">
+          <p>Project 3</p>
+        </a>
+        <a class="card" href="#">
+          <img src="project4.jpg" alt="">
+          <p>Project 4</p>
+        </a>
+        <a class="card" href="#">
+          <img src="project5.jpg" alt="">
+          <p>Project 5</p>
+        </a>
+        <a class="card" href="#">
+          <img src="project6.jpg" alt="">
+          <p>Project 6</p>
+        </a>
+      </div>
+    </section>
+  <section class="section3">
+    <h1>Contact Us</h1>
+    <div class="wrapper">
+      <div>
+        <h2>Hello I'am Aqil</h2>
+        <br>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+          impedit a perspiciatis veritatis ducimus error ab nihil. Distinctio
+          esse repellat dignissimos. Molestiae et omnis sed minus pariatur,
+          quasi at exercitationem!
+        </p>
+        <br>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+          impedit a perspiciatis veritatis ducimus error ab nihil. Distinctio
+          esse repellat dignissimos. Molestiae et omnis sed minus pariatur,
+          quasi at exercitationem!
+        </p>
+        <br>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+          impedit a perspiciatis veritatis ducimus error ab nihil. Distinctio
+          esse repellat dignissimos. Molestiae et omnis sed minus pariatur,
+          quasi at exercitationem!
+        </p>
+      </div>
+      <div class="mapouter">
+        <div class="gmap_canvas">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1982.6323412293495!2d106.73438703207019!3d-6.359778182912287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ef004736e321%3A0x35fe38f63eed2d23!2sKampus%20ADI%20Tangsel!5e0!3m2!1sid!2sid!4v1715928471494!5m2!1sid!2sid" width="600" height="450" style="border-radius: 20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><a href="https://strandsgame.net/">Strands Game</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script>
+    let layer = document.querySelector(".layer");
+    window.addEventListener("scroll", function () {
+      requestAnimationFrame(function() {
+        let value = window.scrollY;
+        layer.style.left = value + "px";
+      });
+    });
+  </script>
+</body>
+</html>
+</html>
